@@ -70,3 +70,17 @@ input:focus {
 .form__button button:focus {
   outline: none;
 }
+
+@media (max-width: 425px) {
+  .home {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .home__header {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #fff;
+    font-size: 13px;
+  }
+}

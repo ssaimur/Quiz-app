@@ -36,3 +36,10 @@
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 425px) {
+  .oops {
+    width: 100%;
+    margin: 40px auto;
+  }
+}

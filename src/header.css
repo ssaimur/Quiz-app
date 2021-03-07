@@ -7,3 +7,15 @@ header {
 header h1 {
   text-align: center;
 }
+
+@media (max-width: 425px) {
+  header {
+    background-color: #fff;
+    padding: 10px 0;
+    font-size: 11px;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+}

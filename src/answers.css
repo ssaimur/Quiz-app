@@ -46,6 +46,7 @@
 
 .green {
   color: green;
+  align-self: center;
 }
 
 .red {
@@ -54,4 +55,19 @@
 
 .blue {
   color: blue;
+}
+
+@media (max-width: 425px) {
+  .answer {
+    display: grid;
+    grid-template-columns: 1fr 93px;
+  }
+  .common {
+    font-size: 12px;
+  }
+  .each__item {
+    margin-bottom: 10px;
+    padding: 1px 5px;
+    background-color: #ebebeb;
+  }
 }

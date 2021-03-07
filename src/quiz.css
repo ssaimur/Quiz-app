@@ -4,6 +4,14 @@
   margin-top: 40px;
 }
 
+@media (max-width: 425px) {
+  .quiz {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
 .quiz__header {
   padding: 10px 0;
   text-align: center;

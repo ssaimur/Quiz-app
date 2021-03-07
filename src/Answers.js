@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './answers.css'
 import { useGobalContext } from "./Context";
 import { FaCheck } from "react-icons/fa";
@@ -6,6 +6,7 @@ import { CgClose } from "react-icons/cg";
 
 const Answers = () => {
     const {answers} = useGobalContext();
+    const refHook = useRef(null);
     return (
         <div className='answers'>
             <div className="answers__header">
@@ -27,10 +28,10 @@ const Answers = () => {
                                         <div className="answer">
                                             <p>{`${index + 1}. ${item}`}</p>
                                             {(ans.indexOf(your_answer) === index) && <div className="indicator">
-                                                <p>Your Answer</p>
+                                                <p className="common">Your Answer</p>
                                                 {show ? <FaCheck className='blue' />: <CgClose className='red' />}
                                             </div>}
-                                            <p className='green'>{(correct_answer === item && !show) && 'Correct Answer'}</p>
+                                            <p className='green common'>{(correct_answer === item && !show) && 'Correct Answer'}</p>
                                         </div>
                                     </div>
                                 )
