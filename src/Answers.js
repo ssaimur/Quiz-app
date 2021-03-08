@@ -6,7 +6,6 @@ import { CgClose } from "react-icons/cg";
 
 const Answers = () => {
     const {answers} = useGobalContext();
-    const refHook = useRef(null);
     return (
         <div className='answers'>
             <div className="answers__header">
