@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './answers.css';
 import { useGobalContext } from './Context';
 import { FaCheck } from 'react-icons/fa';
