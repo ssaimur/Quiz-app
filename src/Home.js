@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='home__header'>
-        <h2>Participate an quiz and earn no reward</h2>
+        <h2>Participate in this quiz and earn no reward</h2>
       </div>
       <div className='home__body'>
         <form className='form' onSubmit={(e) => initialSubmit(e)}>

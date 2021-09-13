@@ -21,9 +21,9 @@ const Quiz = () => {
   // useEffect(() => {
   // }, [value]);
 
-  if (loading) {
-    return <Loading />;
-  }
+  // if (loading) {
+  return <Loading />;
+  // }
 
   // if (error){
   //     return <Oops />;

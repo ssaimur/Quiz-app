@@ -42,16 +42,17 @@
   height: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .complete__footer__buttons > button {
-  border: 2px solid #0a0a23;
+  /* border: 2px solid #0a0a23; */
+  border: none;
   padding: 5px 10px;
   /* border-radius: 30px; */
-  background: transparent;
-  color: #0a0a23;
+  background: #0a0a23;
+  color: #f5f5f7;
   font-size: 16px;
 }
 
@@ -61,6 +62,27 @@
   cursor: pointer;
 }
 .complete__footer__buttons > button:focus {
+  outline: none;
+}
+
+.homeButton {
+  display: block;
+  margin: 30px auto;
+  border: 2px solid #0a0a23;
+  /* border: none; */
+  padding: 5px 10px;
+  /* border-radius: 30px; */
+  background: transparent;
+  color: #0a0a23;
+  font-size: 16px;
+}
+
+.homeButton:hover {
+  color: #f5f5f7;
+  background-color: #0a0a23;
+  cursor: pointer;
+}
+.homeButton:focus {
   outline: none;
 }
 

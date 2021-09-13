@@ -62,7 +62,7 @@
     height: 20px;
   }
   50% {
-    height: 100px;
+    height: 120px;
   }
   100% {
     height: 20px;
@@ -71,46 +71,46 @@
 
 @keyframes animate-2 {
   0% {
-    height: 100px;
+    height: 30px;
   }
   50% {
-    height: 20px;
+    height: 110px;
   }
   100% {
-    height: 100px;
+    height: 30px;
   }
 }
 
 @keyframes animate-3 {
   0% {
-    height: 30px;
+    height: 40px;
   }
   50% {
     height: 100px;
   }
   100% {
-    height: 30px;
+    height: 40px;
   }
 }
 @keyframes animate-4 {
   0% {
-    height: 100px;
+    height: 30px;
   }
   50% {
-    height: 35px;
+    height: 110px;
   }
   100% {
-    height: 100px;
+    height: 30px;
   }
 }
 @keyframes animate-5 {
   0% {
-    height: 40px;
+    height: 20px;
   }
   50% {
-    height: 100px;
+    height: 120px;
   }
   100% {
-    height: 40px;
+    height: 20px;
   }
 }

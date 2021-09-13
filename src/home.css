@@ -20,8 +20,8 @@
   height: 30px;
   margin-top: 2px;
   padding-left: 10px;
-  border: none;
-  /* border-bottom: 1px solid #0a0a23; */
+  /* border: none; */
+  border: 1px solid #0a0a23;
   background-color: #ebebeb;
 }
 

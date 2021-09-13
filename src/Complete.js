@@ -30,13 +30,16 @@ const Complete = () => {
       <div className='complete__footer'>
         <div className='complete__footer__buttons'>
           {/* <button>Take this again</button> */}
-          <button onClick={handleHome}>Home</button>
+
           <button onClick={() => setIsAnswer(!isAnswer)}>
             {isAnswer ? 'Hide answers' : 'Show answers'}
           </button>
         </div>
       </div>
       {isAnswer && <Answers />}
+      <button onClick={handleHome} className='homeButton'>
+        Back to home
+      </button>
     </div>
   );
 };
