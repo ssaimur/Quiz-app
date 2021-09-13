@@ -1,9 +1,9 @@
 import React from 'react';
 import './quiz.css';
-import { useGobalContext } from './Context';
-import Complete from './Complete';
-import Loading from './Loading';
-import Oops from './Oops';
+import { useGobalContext } from '../../contexts/Context';
+import Complete from '../../Components/complete/Complete';
+import Loading from '../../Components/loading/Loading';
+import Oops from '../../Components/oops/Oops';
 
 const Quiz = () => {
   const {
@@ -21,9 +21,9 @@ const Quiz = () => {
   // useEffect(() => {
   // }, [value]);
 
-  // if (loading) {
-  return <Loading />;
-  // }
+  if (loading) {
+    return <Loading />;
+  }
 
   // if (error){
   //     return <Oops />;

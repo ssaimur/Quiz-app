@@ -1,15 +1,11 @@
 import React from 'react';
 import './home.css';
-import { useGobalContext } from './Context';
-import { data } from './data';
+import { useGobalContext } from '../../contexts/Context';
+import { data } from '../../data';
 
 const Home = () => {
-  const {
-    initialChange,
-    initialValue,
-    initialSubmit,
-    handleClick,
-  } = useGobalContext();
+  const { initialChange, initialValue, initialSubmit, handleClick } =
+    useGobalContext();
 
   // const {category, difficulty, type} = data;
   // if(isQuiz){

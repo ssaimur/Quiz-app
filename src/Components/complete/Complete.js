@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './complete.css';
-import Answers from './Answers';
+import Answers from '../answers/Answers';
 
-import { useGobalContext } from './Context';
+import { useGobalContext } from '../../contexts/Context';
 
 const Complete = () => {
   const { correctAnswer, youAnswered, info, handleHome } = useGobalContext();

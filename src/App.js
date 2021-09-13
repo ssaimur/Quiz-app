@@ -1,8 +1,7 @@
-import './App.css';
-import Quiz from './Quiz';
-import Header from './Header';
-import Home from './Home';
-import { useGobalContext } from './Context';
+import Quiz from './Pages/quiz/Quiz';
+import Header from './Components/header/Header';
+import Home from './Pages/homePage/Home';
+import { useGobalContext } from './contexts/Context';
 function App() {
   const { isHome } = useGobalContext();
 
